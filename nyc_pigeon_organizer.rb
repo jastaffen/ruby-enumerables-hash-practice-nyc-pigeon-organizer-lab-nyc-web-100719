@@ -6,7 +6,8 @@ def nyc_pigeon_organizer(data)
     array = value.values.flatten
     array.each do |name|
       new_hash[el] = 1
-      binding.pry
+
     end
+    binding.pry
   end
 end
