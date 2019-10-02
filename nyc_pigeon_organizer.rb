@@ -10,13 +10,6 @@ def nyc_pigeon_organizer(data)
           new_hash[name] = {}
 
 
-    # array = value.values.flatten
-    # array.each do |name|
-    #   new_hash[name] = {}
-
-      # if !new_hash[name][key]
-      #   new_hash[name][key] = []
-      # end
        end
        if !new_hash[name][key]
          new_hash[name][key] = []
