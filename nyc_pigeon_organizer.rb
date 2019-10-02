@@ -24,6 +24,7 @@ def nyc_pigeon_organizer(data)
        if !new_hash[name][key] = [subkey.to_s]
          new_hash[name][key] = [].push([subkey.to_s])
        end
+       if 
      end
     end
   end
