@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
     puts key
 
     array.each do |name|
-      new_hash[name] = 1
+      new_hash[name] = key
     end
   end
   new_hash
