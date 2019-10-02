@@ -5,7 +5,6 @@ def nyc_pigeon_organizer(data)
   data.each do |key, value|
     array = value.values.flatten
     puts key
-
     array.each do |name|
       new_hash[name] = key
     end
