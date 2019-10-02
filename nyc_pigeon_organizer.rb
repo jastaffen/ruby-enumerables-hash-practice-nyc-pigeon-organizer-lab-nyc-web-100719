@@ -14,6 +14,7 @@ def nyc_pigeon_organizer(data)
         if !new_hash[name][key]
           new_hash[name][key] = []
         end
+        binding.pry
         if value[subkey].include?(name)
           new_hash[name][key] = [].push(subkey.to_s)
         end
@@ -24,6 +25,6 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
-  binding.pry
+
   new_hash
 end
