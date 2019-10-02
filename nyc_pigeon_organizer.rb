@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
   data.each do |key, value|
     array = value.values.flatten
     array.each do |name|
-      new_hash[name] = {:color => key[name], :gender =>, :lives => }
+      new_hash[name] = {:color => [], :gender =>[], :lives =>[] }
       binding.pry
     end
   end
