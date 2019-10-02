@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
   data.each do |key, value|
     value.each do |subkey, names|
       names.each do |name|
-        binding.pry
+
         if !new_hash[name]
           new_hash[name] = {}
 
@@ -19,7 +19,8 @@ def nyc_pigeon_organizer(data)
       # end
        end
        if names.include?(subkey)
-         new_hash[name][key] = []
+         new_hash[name][key] = [subkey]
+         binding.pry
        end
        if !new_hash[name][key][subkey]
        end
