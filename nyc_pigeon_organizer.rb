@@ -5,10 +5,11 @@ def nyc_pigeon_organizer(data)
   data.each do |key, value|
     array = value.values.flatten
     puts key
+    binding.pry
     array.each do |name|
       new_hash[name] = 1
     end
   end
   new_hash
-  binding.pry
+
 end
