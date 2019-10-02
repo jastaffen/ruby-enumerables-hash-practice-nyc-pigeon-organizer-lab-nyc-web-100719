@@ -22,7 +22,7 @@ def nyc_pigeon_organizer(data)
          new_hash[name][key] = []
        end
        if !new_hash[name][key] = [subkey]
-         new_hash[name][key] = [].push([subkey])
+         new_hash[name][key] = [].push([subkey.to_s])
        end
      end
     end
