@@ -21,12 +21,13 @@ def nyc_pigeon_organizer(data)
        if !new_hash[name][key]
          new_hash[name][key] = []
        end
+       binding.pry
        if !new_hash[name][key][subkey]
-         new_hash[name][key] = [].push[subkey]
+         new_hash[name][key]
        end
      end
     end
   end
-  binding.pry
+
   new_hash
 end
