@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
     binding.pry
     array.each do |name|
       new_hash[name] = 1
-      
+
     end
   end
   new_hash
